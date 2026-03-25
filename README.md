@@ -48,7 +48,7 @@ The analysis is organized into 11 logical scripts to ensure a clean, reproducibl
 ## How to Replicate
 1. **Clone the Repo:** `git clone https://github.com/kdvkrishna/Ecommerce-EDA-PostgreSQL.git`
 2. **Environment:** Ensure you have a PostgreSQL instance running.
-3. **Execution:** Run the `.sql` scripts in numerical order (01 through 11).
+3. **Execution:** Run the `.sql` scripts in numerical order (01 through 11). Before running 01_setup.sql, please update the file paths in the COPY commands to match the location of the CSV files on your local machine.
 4. **Analysis:** Query the `report_customers` and `report_products` views to see the final analytical layer.
 
 ---
